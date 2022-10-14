@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Flask env settings
+.flaskenv
+
+# Node.JS files
+node_modules/
+
+# Easy run file
+env.bat
+run.bat

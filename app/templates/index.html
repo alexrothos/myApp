@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Downloader</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h3>This is a Youtube Downloader</h3>
+        <p>
+            Just copy the url of the Youtube video you like to download, copy to
+            the box and it will be downloaded at the maximum resolution that is
+            available.
+        </p>
+        <form action="" method="post">
+            <p>
+                {{ form.url.label }}<br />
+                {{ form.url }}
+            </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+    </body>
+</html>
